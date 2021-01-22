@@ -4,5 +4,5 @@ export default function Header(props){
 
 const { title } = props;
 
-return <div className='title'>{title}</div>;
+return <h1 className='title'>{title}</h1>;
 };
